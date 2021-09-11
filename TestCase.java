@@ -69,7 +69,7 @@ public class TestCase {
 //					 10. Get the Firstname and print it
 					String valueOfFirstName = firstName.getAttribute("value");
 					System.out.println("First Name : " + valueOfFirstName);
-					driver.findElement(By.id("createLeadForm_generalToName")).sendKeys("Venkat");
+					driver.findElement(By.id("createLeadForm_generalToName")).sendKeys(valueOfFirstName);
 					driver.findElement(By.id("createLeadForm_generalAttnName")).sendKeys("Venkat Rayavarapu");
 					driver.findElement(By.id("createLeadForm_generalAddress1")).sendKeys("4th Avanue");
 					driver.findElement(By.id("createLeadForm_generalAddress1")).sendKeys("TechnoPark SEZ");
