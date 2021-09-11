@@ -92,7 +92,7 @@ public class TestCase {
 			}
 
 		} else {
-			System.out.println("Login faild");
+			System.out.println("Login Failed");
 		}
 		driver.close();
 	}
